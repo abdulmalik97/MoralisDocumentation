@@ -10,14 +10,13 @@ description: >-
 ### Unity SDK breaking updates
 
 {% hint style="warning" %}
-
-- New unity sdk version has been published which feature some major updates and breaking changes, take a look at the [changelog here](https://github.com/MoralisWeb3/unity-web3-game-kit/releases/tag/v1.2.0)
-- The code snippets in the docs has been updated to use the latest version of the sdk with the new code syntax (most recommended)
-- You can take a look at this well presented [migration video](https://cdn.discordapp.com/attachments/918645175562145822/978328925753208904/MigrateToV120.mp4)
-- This also mean some of the moralis projects, github examples, youtube tutorials e.t.c created before the release may be using the old sdk if not updated and may cause some confusing or conflicts (when looking at the docs), you are advised to migrate by following the migration video above
-- This chapter has been split to show the various installation and setup for the different sdk versions [ < v1.2.0 or >= v1.2.0]
-- Further questions feel free to ask on our [forum (uinty thread)](https://forum.moralis.io/t/ethereum-unity3d-boilerplate-questions/4553/708) or ask in our [discord server](https://moralis.io/mage/)
-  {% endhint %}
+* New unity sdk version has been published which feature some major updates and breaking changes, take a look at the [changelog here](https://github.com/MoralisWeb3/unity-web3-game-kit/releases/tag/v1.2.0)
+* The code snippets in the docs has been updated to use the latest version of the sdk with the new code syntax (most recommended)
+* You can take a look at this well presented [migration video](https://cdn.discordapp.com/attachments/918645175562145822/978328925753208904/MigrateToV120.mp4)
+* This also mean some of the moralis projects, github examples, youtube tutorials e.t.c created before the release may be using the old sdk if not updated and may cause some confusing or conflicts (when looking at the docs), you are advised to migrate by following the migration video above
+* This chapter has been split to show the various installation and setup for the different sdk versions \[ < v1.2.0 or >= v1.2.0]
+* Further questions feel free to ask on our [forum (unity thread)](https://forum.moralis.io/t/ethereum-unity3d-boilerplate-questions/4553/708) or ask in our [discord server](https://moralis.io/mage/)
+{% endhint %}
 
 ### Web3 Unity Boilerplate
 
@@ -54,8 +53,7 @@ Download the latest version of the SDK [here](https://github.com/ethereum-boiler
 
 **For WEBGL**
 
-- In Player Settings change the WebGL template to the Moralis WebGL Template.
-
+* In Player Settings change the WebGL template to the Moralis WebGL Template.
 
 ![](../../.gitbook/assets/buildingforwebgl.gif)
 
@@ -79,25 +77,22 @@ Webgl can only be tested on build
 
 **For WEBGL**
 
-- Copy the `WebGLTemplates` folder from `Packages/io.moralis.web3-unity-sdk/Resources/` to the Assets folder
-- In Player Settings change the WebGL template to the Moralis WebGL Template.
-
-
+* Copy the `WebGLTemplates` folder from `Packages/io.moralis.web3-unity-sdk/Resources/` to the Assets folder
+* In Player Settings change the WebGL template to the Moralis WebGL Template.
 * Copy the `WebGLTemplates` folder from `Packages/io.moralis.web3-unity-sdk/Resources/` to the Assets folder
 * In Player Settings change the WebGL template to the Moralis WebGL Template.
 
 ![](../../.gitbook/assets/buildingforwebgl.gif)
 
-- Open the Demos folder in the Moralis Web3 Unity SDK/
-- Navigate to and open the Introduction scene in Introduction/
-- Run the application/scene by clicking the Play icon located at the top, center of the Unity.
+* Open the Demos folder in the Moralis Web3 Unity SDK/
+* Navigate to and open the Introduction scene in Introduction/
+* Run the application/scene by clicking the Play icon located at the top, center of the Unity.
 
 {% hint style="warning" %}
 If the above did not work, you can copy and paste the Demos/ folder in the Assets folder and run it from there
 {% endhint %}
 
 **Running the application**
-
 
 * Open the DemoScene in the Examples
 * Run the application by clicking the Play icon located at the top, center of the Unity.
@@ -106,11 +101,13 @@ If the above did not work, you can copy and paste the Demos/ folder in the Asset
 
 #### See all User Assets in the Moralis Database
 
-As soon as the user logs in Moralis fetches all the on-chain data about that user from all chains and puts it into the Moralis Database. To see the Moralis Database go your server and click on _Dashboard_.
+As soon as the user logs in Moralis fetches all the on-chain data about that user from all chains and puts it into the Moralis Database. To see the Moralis Database go your server settings into the _Database_ tab.
 
-![Click on Dashboard in order to see the database of your server.](<../../.gitbook/assets/Screenshot 2021-10-15 at 18.38.52.png>)
+![](../../.gitbook/assets/Database-access.png)
 
-You will see the database of that server once you click _Dashboard_. Moralis fetches data from all blockchain where the address of the user has been active and you can see and query all tokens, NFTs and past transactions of the user all in one database.
+![](../../.gitbook/assets/Database-access-2.png)
+
+You will see the database of that server once you click _Access Database_. Moralis fetches data from all blockchain where the address of the user has been active and you can see and query all tokens, NFTs and past transactions of the user all in one database.
 
 ![Moralis Database fetches all user data from all chains and updates it in real time in case users move their assets on chain.](<../../.gitbook/assets/Screenshot 2021-10-15 at 18.44.04.png>)
 
@@ -121,6 +118,7 @@ These example videos/tutorials were made with the sdk version < 1.2.0, some of t
 {% endhint %}
 
 Guides on how to use the moralis unity sdk in unity on various platform.
+
 {% embed url="https://docs.moralis.io/moralis-dapp/users/unity-login/authkit#tutorial-guide" %}
 Authentication using the Moralis Authentication Kit
 {% endembed %}
